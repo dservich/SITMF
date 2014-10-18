@@ -11,7 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>SITMF</title>
 
-
+    <link rel = "css" href="foundation-5.4.6/css/foundation.css">
+    
     
   </head>
 
