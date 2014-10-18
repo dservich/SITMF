@@ -45,12 +45,12 @@ require_once('includes/header.inc.php');
     <div class="large-3 pull-9 columns">
         
       <ul class="side-nav">
-        <li><a href="#">Section 1</a></li>
-        <li><a href="#">Section 2</a></li>
-        <li><a href="#">Section 3</a></li>
-        <li><a href="#">Section 4</a></li>
-        <li><a href="#">Section 5</a></li>
-        <li><a href="#">Section 6</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Life</a></li>
+        <li><a href="#">Dating </a></li>
+        <li><a href="#">Politics</a></li>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Science & Technology</a></li>
       </ul>
       
       <p><img src="http://placehold.it/320x240&text=Ad"/></p>
@@ -67,7 +67,7 @@ require_once('includes/header.inc.php');
       <hr/>
       <div class="row">
         <div class="large-6 columns">
-          <p>© Copyright no one at all. Go to town.</p>
+          <p>© Dan Servich & Shane Skillpa.</p>
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
