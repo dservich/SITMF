@@ -5,7 +5,8 @@ require_once('includes/header.inc.php');
 <!-- This row is our title bar -->
 <div class = "row">
 	<div class = "large-12 columns">
-    <p align = "center" style="font-family:impact"><font color="#FF8000" size="26">
+    <p align = "center" style="font-family:impact"><font color="#FF8000" 
+      size="26">
       <b><i>Say It To My Face</b></i></font> 
 		<br>
     <font color="#FF0000" size="15">
@@ -112,22 +113,22 @@ require_once('includes/header.inc.php');
  
         <div class="large-3 small-6 columns">
           <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel">Description</h6>
+          <h6 class="panel"><a href = "#">Click here for more news in Politics</h6>
         </div>
  
         <div class="large-3 small-6 columns">
           <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel">Description</h6>
+          <h6 class="panel"><a href = "#">Click here for more news in </h6>
         </div>
  
         <div class="large-3 small-6 columns">
           <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel">Description</h6>
+          <h6 class="panel"><a href = "#">Click here for more news in</h6>
         </div>
  
         <div class="large-3 small-6 columns">
           <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel">Description</h6>
+          <h6 class="panel"><a href = "#">Click here for more news in</h6>
         </div>
  
      
@@ -149,20 +150,6 @@ require_once('includes/header.inc.php');
   </div>
     
   
-
-  <div class = "row">
-  	 <?php
-  	 	$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/World/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
-  	 	$obj = json_decode($json, true);
-  	 	$article = $obj['results'][0];
-  	 	$url = $article['url'];
-
-  	 ?>
-  	 	<a href="<?php  echo $url?>"><img src = "http://placehold.it/300x300.png"/></a>
-  	 <?php
-
-  	?>
-  </div>
    
   
   <footer class="row">
