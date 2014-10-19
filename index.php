@@ -79,14 +79,14 @@ require_once('includes/header.inc.php');
   			?>
 
           
-          <h6 class="panel"><a href = "section.php?section=World">Click here for more news in World</a></h6>
+          <h6 class="panel"><a href = "section.php?section=World">Worldy News and Discussion</a></h6>
         </div>
  
         <div class="large-4 small-6 columns" id = "SportsThumbnail">
           
 			
           <a href="#"><img src="sports.png"/> </a>
-          <h6 class="panel"><a href = "section.php?section=Sports">Click here for more news in Sports</a></h6>
+          <h6 class="panel"><a href = "section.php?section=Sports">Sports News and Discussion</a></h6>
         </div>
  
         <div class="large-4 small-6 columns" id = "BusinessThumbnail">
@@ -99,7 +99,7 @@ require_once('includes/header.inc.php');
   	 			$url = $article['url'];
 	    	?>
           <a href="article.php?link=<?php  echo $url?>"><img src="business.png"/></a>
-          <h6 class="panel"><a href = "section.php?section=Business">Click here for more news in Business</a></h6>
+          <h6 class="panel"><a href = "section.php?section=Business">Business News and Discussion</a></h6>
         </div>
  
 
@@ -147,17 +147,17 @@ require_once('includes/header.inc.php');
  
         <div class="large-4 small-6 columns">
           <a href="#"><img src="politics.png"/></a>
-          <h6 class="panel"><a href = "section.php?section=politics">Click here for more news in Politics</h6>
+          <h6 class="panel"><a href = "section.php?section=politics">Political News and Discussion</h6>
         </div>
  
         <div class="large-4 small-6 columns">	
           <a href="#"><img src="science.png"/></a>
-          <h6 class="panel"><a href = "section.php?section=science">Click here for more news in Science </h6>
+          <h6 class="panel"><a href = "section.php?section=science">Scientific News and Discussion</h6>
         </div>
  
         <div class="large-4 small-6 columns">
           <a href="#"><img src="technology.png"/></a>
-          <h6 class="panel"><a href = "section.php?section=technology">Click here for more news in Technology</h6>
+          <h6 class="panel"><a href = "section.php?section=technology">Technology News and Discussion</h6>
         </div>
       
  
