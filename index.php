@@ -157,23 +157,23 @@ require_once('includes/header.inc.php');
      
  
         <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel"><a href = "#">Click here for more news in Politics</h6>
+          <a href="<?php  echo $url?>"><img src="politics.png"/></a>
+          <h6 class="panel"><a href = "section.php?section=politics">Click here for more news in Politics</h6>
         </div>
  
         <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel"><a href = "#">Click here for more news in Science </h6>
+          <a href="<?php  echo $url?>"><img src="science.png"/></a>
+          <h6 class="panel"><a href = "section.php?section=science">Click here for more news in Science </h6>
         </div>
  
         <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel"><a href = "#">Click here for more news in Technology</h6>
+          <a href="<?php  echo $url?>"><img src="technology.png"/></a>
+          <h6 class="panel"><a href = "section.php?section=technology">Click here for more news in Technology</h6>
         </div>
  
         <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel"><a href = "#">Click here for more news in Health</h6>
+          <a href="<?php  echo $url?>"><img src="health.png"/></a>
+          <h6 class="panel"><a href = "section.php?section=health">Click here for more news in Health</h6>
         </div>
  
      
