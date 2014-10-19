@@ -1,6 +1,8 @@
 <?php
 require_once('includes/header.inc.php');
 ?>
+
+<!-- This row is our title bar -->
 <div class = "row">
 	<div class = "large-12 columns">
     <p align = "center" style="font-family:impact"><font color="#FF8000" size="26">
@@ -16,23 +18,22 @@ require_once('includes/header.inc.php');
 	</div>
 </div>
 
+<!-- This row is our navigation bar. -->
 <div class="row" >
     <div class="large-3 columns">
       <h1><img src="favicon.png"/></h1>
     </div>
     <div class="large-9 columns">
       <ul class="inline-list right" >
-        <li ><a href="#">Section 1</a></li>
-        <li ><a href="#">Section 2</a></li>
-        <li ><a href="#">Section 3</a></li>
-        <li ><a href="#">Section 4</a></li>
+        <li ><a href="#">About SITMF</a></li>
+        <li ><a href="#">Contact Us</a></li>
       </ul>
     </div>
   </div>
   
    
   
-  
+  <!-- This begins our body -->
   <div class="row">    
     
      
@@ -46,9 +47,14 @@ require_once('includes/header.inc.php');
     <div class="large-12 columns">
  
      
- 
+  <!-- --------------------------
+
+  This is the top row of the body 
+
+  ---------------------------- -->
+
       <div class="row">
-    <div class="large-12 columns">
+   		<div class="large-12 columns">
       <div class="row">
  
      
