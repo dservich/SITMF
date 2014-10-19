@@ -10,16 +10,16 @@ require_once('includes/header.inc.php');
 	</div>
 </div>
 
-<div class="row">
+<div class="row" >
     <div class="large-3 columns">
       <h1><img src="favicon.png"/></h1>
     </div>
     <div class="large-9 columns">
-      <ul class="inline-list right">
-        <li><a href="#">Section 1</a></li>
-        <li><a href="#">Section 2</a></li>
-        <li><a href="#">Section 3</a></li>
-        <li><a href="#">Section 4</a></li>
+      <ul class="inline-list right" >
+        <li ><a href="#">Section 1</a></li>
+        <li ><a href="#">Section 2</a></li>
+        <li ><a href="#">Section 3</a></li>
+        <li ><a href="#">Section 4</a></li>
       </ul>
     </div>
   </div>
@@ -31,7 +31,7 @@ require_once('includes/header.inc.php');
     
      
      
-    <div class="large-9 push-3 columns">
+    <div class="large-12 columns">
       
 
       
@@ -41,12 +41,38 @@ require_once('includes/header.inc.php');
  
      
  
-      <div class="hide-for-small">
-        <div id="featured">
-              <img src="http://placehold.it/1000x400&text=Slide Image" alt="slide image">
-               
-          </div>
+      <div class="row">
+    <div class="large-12 columns">
+      <div class="row">
+ 
+     
+ 
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Thumbnail"/>
+          <h6 class="panel">Description</h6>
         </div>
+ 
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Thumbnail"/>
+          <h6 class="panel">Description</h6>
+        </div>
+ 
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Thumbnail"/>
+          <h6 class="panel">Description</h6>
+        </div>
+ 
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Thumbnail"/>
+          <h6 class="panel">Description</h6>
+        </div>
+ 
+     
+ 
+      </div>
+    </div>
+  </div>
+ 
  
      
  
@@ -106,20 +132,7 @@ require_once('includes/header.inc.php');
     
      
      
-    <div class="large-3 pull-9 columns">
-        
-      <ul class="side-nav">
-        <li><a href="#">News</a></li>
-        <li><a href="#">Life</a></li>
-        <li><a href="#">Dating </a></li>
-        <li><a href="#">Politics</a></li>
-        <li><a href="#">World</a></li>
-        <li><a href="#">Science & Technology</a></li>
-      </ul>
-      
-      <p><img src="http://placehold.it/320x240&text=Ad"/></p>
-        
-    </div>
+    
     
   </div>
     
