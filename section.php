@@ -4,18 +4,20 @@ require_once('includes/header.inc.php');
 
 <!-- This row is our title bar -->
 <div class = "row">
-	<div class = "large-12 columns">
-    <p align = "center" style="font-family:impact"><font color="#FF8000" size="26">
+  <div class = "large-12 columns">
+    <p align = "center" style="font-family:impact;
+     border-style:solid; border-color:black; background-color:#FFFF75" >
+ <font color="#FF8000" size="26">
       <b><i>Say It To My Face</b></i></font> 
-		<br>
+    <br>
     <font color="#FF0000" size="15">
       <small>
       <b><i>Where Your Opinion Is Heard</i></b></font>
     </small>
   </p>
         
-    	
-	</div>
+      
+  </div>
 </div>
 
 
@@ -39,9 +41,9 @@ require_once('includes/header.inc.php');
 This begins the main body of the page 
 
 -->
-
+<!--
 <?php
-      $section = $_GET['section'];
+      /*$section = $_GET['section'];
       echo $section;
       $json = file_get_contents("http://api.nytimes.com/svc/news/v3/content/all/$section/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254");
       $obj = json_decode($json, true);
@@ -49,25 +51,13 @@ This begins the main body of the page
       $article = $obj['results'][0];
       $url = $article['url'];
 
-     ?>
+     */?>
       <a href="<?php  echo $url?>"><img src = "http://placehold.it/300x300.png"/></a>
-     <?php
+     
 
-    ?>
-
-  <div class="row">
-    <div class="large-12 columns">
-    <div id="slider">
-      <img src="http://placehold.it/1000x400&text=[ img 1 ]"/>
-    </div>
-    
-    <hr/>
-    </div>
-  </div>
-  
- 
- 
-  <div class="row">
+-->
+  <br>
+    <div class="row">
     <div class="large-4 columns">
       <img src="http://placehold.it/400x300&text=[img]"/>
       <h4>This is a content section.</h4>
