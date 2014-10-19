@@ -154,9 +154,14 @@ require_once('includes/header.inc.php');
   	 <?php
   	 	$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/World/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
   	 	$obj = json_decode($json, true);
-  	 	print_r($obj['results']);
+  	 	$article = $obj['results'][0];
+  	 	$url = $article['url'];
 
   	 ?>
+  	 	<a href="<?php  echo $url?>"><img src = "http://placehold.it/300x300.png"/></a>
+  	 <?php
+
+  	?>
   </div>
    
   
