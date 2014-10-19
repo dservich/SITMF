@@ -72,7 +72,7 @@ require_once('includes/header.inc.php');
   	 			$url = $article['url'];
 	    	?>
   	 		
-  	 		<a href="<?php  echo $url?>"><img src="world.png"/></a>
+  	 		<a href="article.php?link=<?php  echo $url?>"><img src="world.png"/></a>
   			
   			<?php
 
@@ -98,7 +98,7 @@ require_once('includes/header.inc.php');
   	 			$article = $obj['results'][0];
   	 			$url = $article['url'];
 	    	?>
-          <a href="<?php  echo $url?>"><img src="business.png"/></a>
+          <a href="article.php?link=<?php  echo $url?>"><img src="business.png"/></a>
           <h6 class="panel"><a href = "section.php?section=Business">Click here for more news in Business</a></h6>
         </div>
  

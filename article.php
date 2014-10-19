@@ -49,10 +49,8 @@ require_once('includes/header.inc.php');
 
  <div class="row">
     <div class="large-12 columns">
-    <div id="slider">
-      <img src="http://placehold.it/1000x800&text=[ img 1 ]"/>
-    </div>
-    
+    <?php echo $_GET['link'];?>
+      <iframe src="<?php echo $_GET['link'];?>" style="width:1000px; height:800px;"></iframe>
     <hr/>
     </div>
   </div>
@@ -76,7 +74,7 @@ require_once('includes/header.inc.php');
           <div class="row">
  
             <div class="large-4 small-6 columns">
-              <img src="http://placehold.it/1000x1000&text=Thumbnail">
+              <ziggeo ziggeo-height = 250 ziggeo-width = 250></ziggeo>
  
               <div class="panel">
                 <h5>Item Name</h5>
