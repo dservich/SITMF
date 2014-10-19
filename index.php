@@ -81,18 +81,42 @@ require_once('includes/header.inc.php');
         </div>
  
         <div class="large-3 small-6 columns" id = "SportsThumbnail">
-          <img src="sports.png"/>
-          <h6 class="panel"><a href = "#">Click here for more news in Sports</a></h6>
+          
+			<?php
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Sports/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254+');
+  	 			$obj = json_decode($json, true);
+  	 	
+  	 			$article = $obj['results'][0];
+  	 			$url = $article['url'];
+	    	?>
+          <a href="<?php  echo $url?>"><img src="sports.png"/> </a>
+          <h6 class="panel"><a href = "section.php?section=Sports">Click here for more news in Sports</a></h6>
         </div>
  
         <div class="large-3 small-6 columns" id = "BusinessThumbnail">
-          <img src="business.png"/>
-          <h6 class="panel"><a href = "#">Click here for more news in Business</a></h6>
+          
+<?php
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Business/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254+');
+  	 			$obj = json_decode($json, true);
+  	 	
+  	 			$article = $obj['results'][0];
+  	 			$url = $article['url'];
+	    	?>
+          <a href="<?php  echo $url?>"><img src="business.png"/></a>
+          <h6 class="panel"><a href = "section.php?section=Business">Click here for more news in Business</a></h6>
         </div>
  
         <div class="large-3 small-6 columns" id = "">
-          <img src="movies.png"/>
-          <h6 class="panel"><a href = "#">Click for more news in Movies</a></h6>
+          
+        	<?php
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Movies/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254+');
+  	 			$obj = json_decode($json, true);
+  	 	
+  	 			$article = $obj['results'][0];
+  	 			$url = $article['url'];
+	    	?>
+          <a href="<?php  echo $url?>"><img src="movies.png"/></a>
+          <h6 class="panel"><a href = "section.php?section=Movies">Click for more news in Movies</a></h6>
         </div>
  
      
