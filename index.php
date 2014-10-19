@@ -63,7 +63,7 @@ require_once('includes/header.inc.php');
  
         <div class="large-3 small-6 columns" id = "WorldThumbnail">
         	<?php
-  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/World/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254+');
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/World/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
   	 			$obj = json_decode($json, true);
   	 	
   	 			$article = $obj['results'][0];
@@ -83,7 +83,7 @@ require_once('includes/header.inc.php');
         <div class="large-3 small-6 columns" id = "SportsThumbnail">
           
 			<?php
-  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Sports/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254+');
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Sports/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
   	 			$obj = json_decode($json, true);
   	 	
   	 			$article = $obj['results'][0];
@@ -96,7 +96,7 @@ require_once('includes/header.inc.php');
         <div class="large-3 small-6 columns" id = "BusinessThumbnail">
           
 <?php
-  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Business/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254+');
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Business/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
   	 			$obj = json_decode($json, true);
   	 	
   	 			$article = $obj['results'][0];
@@ -109,7 +109,7 @@ require_once('includes/header.inc.php');
         <div class="large-3 small-6 columns" id = "">
           
         	<?php
-  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Movies/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254+');
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Movies/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
   	 			$obj = json_decode($json, true);
   	 	
   	 			$article = $obj['results'][0];
@@ -157,21 +157,52 @@ require_once('includes/header.inc.php');
      
  
         <div class="large-3 small-6 columns">
+
+        	<?php
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Politics/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
+  	 			$obj = json_decode($json, true);
+  	 	
+  	 			$article = $obj['results'][0];
+  	 			$url = $article['url'];
+	    	?>
           <a href="<?php  echo $url?>"><img src="politics.png"/></a>
           <h6 class="panel"><a href = "section.php?section=politics">Click here for more news in Politics</h6>
         </div>
  
         <div class="large-3 small-6 columns">
+        	<?php
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Science/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
+  	 			$obj = json_decode($json, true);
+  	 	
+  	 			$article = $obj['results'][0];
+  	 			$url = $article['url'];
+	    	?>
           <a href="<?php  echo $url?>"><img src="science.png"/></a>
           <h6 class="panel"><a href = "section.php?section=science">Click here for more news in Science </h6>
         </div>
  
         <div class="large-3 small-6 columns">
+
+        	<?php
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Technology/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
+  	 			$obj = json_decode($json, true);
+  	 	
+  	 			$article = $obj['results'][0];
+  	 			$url = $article['url'];
+	    	?>
           <a href="<?php  echo $url?>"><img src="technology.png"/></a>
           <h6 class="panel"><a href = "section.php?section=technology">Click here for more news in Technology</h6>
         </div>
  
         <div class="large-3 small-6 columns">
+
+        	<?php
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Health/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
+  	 			$obj = json_decode($json, true);
+  	 	
+  	 			$article = $obj['results'][0];
+  	 			$url = $article['url'];
+	    	?>
           <a href="<?php  echo $url?>"><img src="health.png"/></a>
           <h6 class="panel"><a href = "section.php?section=health">Click here for more news in Health</h6>
         </div>
