@@ -3,8 +3,8 @@ require_once('includes/header.inc.php');
 ?>
 <div class = "row">
 	<div class = "large-12 columns">
-		<h3 align = "center">Say It To My Face <br>
-		<small>Where Your Opinion Is Heard</small>
+		<h3 align = "center"><b>Say It To My Face</b> <br>
+		<small><b>Where Your Opinion Is Heard</b></small>
         
     	</h3>
 	</div>
@@ -33,7 +33,7 @@ require_once('includes/header.inc.php');
      
     <div class="large-9 push-3 columns">
       
-      
+
       
       
   <div class="row">
