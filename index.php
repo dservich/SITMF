@@ -62,20 +62,22 @@ require_once('includes/header.inc.php');
      
  
         <div class="large-3 small-6 columns" id = "WorldThumbnail">
-          <?php
-  	 		$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/World/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
-  	 		$obj = json_decode($json, true);
+        	<?php
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/World/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254+');
+  	 			$obj = json_decode($json, true);
   	 	
-  	 		$article = $obj['results'][0];
-  	 		$url = $article['url'];
-	      ?>
-  	 	<a href="<?php  echo $url?>"><img src="world.png"/></a>
-  	 <?php
+  	 			$article = $obj['results'][0];
+  	 			$url = $article['url'];
+	    	?>
+  	 		
+  	 		<a href="<?php  echo $url?>"><img src="world.png"/></a>
+  			
+  			<?php
 
-  	?>
+  			?>
 
           
-          <h6 class="panel"><a href = "section.php">Click here for more news in World</a></h6>
+          <h6 class="panel"><a href = "section.php?section=World">Click here for more news in World</a></h6>
         </div>
  
         <div class="large-3 small-6 columns" id = "SportsThumbnail">
@@ -171,10 +173,10 @@ require_once('includes/header.inc.php');
 <!-- Practice -->
 
 
-<!--
+
   <div class = "row">
-  	 <?php/*
-  	 	$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/World/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
+  	 <?php
+  	 	$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/World/24.json?limit=1&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254+');
   	 	$obj = json_decode($json, true);
   	 	
   	 	$article = $obj['results'][0];
@@ -184,10 +186,10 @@ require_once('includes/header.inc.php');
   	 	<a href="<?php  echo $url?>"><img src = "http://placehold.it/300x300.png"/></a>
   	 <?php
 
-  	*/?>
+  	?>
   </div>
     
-  -->
+  
 
    
   
