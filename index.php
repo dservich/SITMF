@@ -81,17 +81,17 @@ require_once('includes/header.inc.php');
         </div>
  
         <div class="large-3 small-6 columns" id = "SportsThumbnail">
-          <img src="http://placehold.it/250x250&text=Thumbnail-2"/>
+          <img src="sports.png"/>
           <h6 class="panel"><a href = "#">Click here for more news in Sports</a></h6>
         </div>
  
         <div class="large-3 small-6 columns" id = "BusinessThumbnail">
-          <img src="http://placehold.it/250x250&text=Thumbnail-3"/>
+          <img src="business.png"/>
           <h6 class="panel"><a href = "#">Click here for more news in Business</a></h6>
         </div>
  
         <div class="large-3 small-6 columns" id = "">
-          <img src="http://placehold.it/250x250&text=Thumbnail-4"/>
+          <img src="movies.png"/>
           <h6 class="panel"><a href = "#">Click for more news in Movies</a></h6>
         </div>
  
