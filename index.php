@@ -26,7 +26,7 @@ require_once('includes/header.inc.php');
     <div class="large-9 columns">
       <ul class="inline-list right" >
         <li ><a href="about.php">About SITMF</a></li>
-        <li ><a href="#">Contact Us</a></li>
+        <li ><a href="contact.php">Contact Us</a></li>
       </ul>
     </div>
   </div>
