@@ -23,7 +23,7 @@ require_once('includes/header.inc.php');
 <!-- This row is our navigation bar. -->
 <div class="row" >
     <div class="large-3 columns">
-      <h1><img src="favicon.png"/></h1>
+      <h1><a href="index.php><img src="favicon.png"/></a></h1>
     </div>
     <div class="large-9 columns">
       <ul class="inline-list right" >
