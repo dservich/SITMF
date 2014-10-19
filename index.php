@@ -139,17 +139,17 @@ require_once('includes/header.inc.php');
  
         <div class="large-3 small-6 columns">
           <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel"><a href = "#">Click here for more news in </h6>
+          <h6 class="panel"><a href = "#">Click here for more news in Science </h6>
         </div>
  
         <div class="large-3 small-6 columns">
           <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel"><a href = "#">Click here for more news in</h6>
+          <h6 class="panel"><a href = "#">Click here for more news in Technology</h6>
         </div>
  
         <div class="large-3 small-6 columns">
           <img src="http://placehold.it/250x250&text=Thumbnail"/>
-          <h6 class="panel"><a href = "#">Click here for more news in</h6>
+          <h6 class="panel"><a href = "#">Click here for more news in Health</h6>
         </div>
  
      
