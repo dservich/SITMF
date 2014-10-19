@@ -57,23 +57,38 @@ This begins the main body of the page
 
 -->
   <br>
+
+  <?php
+          static $api_key = "2cf1abc4b8adb0ad4a723a3b6e666c2a:2:70025254";
+          $json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/'.$_GET['section'].'/72.json?limit=4&offset=0&api-key='.$api_key);
+          $obj = json_decode($json, true);
+          //$article = $obj['results'][0];
+          //$url = $article['url'];
+        ?>
+
+  <div class = "row">
+    <div class = "large-12 columns">
+      <h2 align = "center"> <?php echo $_GET['section'] . " Articles";?></h2>
+    </div>
+  </div>
+
     <div class="row">
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]"/>
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+      
+      <a href="article.php?link=<?php $article = $obj['results'][0]; $url = $article['url']; echo $url;?>">
+      <img src="world.png"/><h4><?php $title = $article['title']; echo $title;?></h4></a>
     </div>
     
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]"/>
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+      
+      <a href="article.php?link=<?php $article = $obj['results'][1]; $url = $article['url']; echo $url;?>">
+      <img src="world.png"/><h4><?php $title = $article['title']; echo $title;?></h4></a>
     </div>
     
     <div class="large-4 columns">
-      <img src="http://placehold.it/400x300&text=[img]"/>
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+      
+      <a href="article.php?link=<?php $article = $obj['results'][2]; $url = $article['url']; echo $url;?>">
+      <img src="world.png"/><h4><?php $title = $article['title']; echo $title;?></h4></a>
     </div>
   
     </div>
