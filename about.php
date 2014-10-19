@@ -5,7 +5,7 @@ require_once('includes/header.inc.php');
 <div class = "row">
   <div class = "large-12 columns">
     <p align = "center" style="font-family:impact;
-     border-style:solid; border-color:black; background-color:6C7B8B" >
+     border-style:solid; border-color:black; background-color:6C7B8B"; >
  <font color="#FF8000" size="26">
       <b><i>Say It To My Face</b></i></font> 
     <br>
@@ -14,7 +14,8 @@ require_once('includes/header.inc.php');
       <b><i>Where Your Opinion Is Heard</i></b></font>
     </small>
   </p>
-        
+        </div>
+      </div>
 
 
 
