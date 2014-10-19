@@ -1,0 +1,9 @@
+---
+applications:
+- name: Say It To My Face
+  host: SITMF
+  domain: mybluemix.net
+  path: ./
+  buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack
+  services:
+  - MongoLab-fq

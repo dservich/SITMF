@@ -65,9 +65,9 @@ require_once('includes/header.inc.php');
  
         <div class="large-4 small-6 columns" id = "WorldThumbnail">
         	<?php
-  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/World/24.json?limit=5&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
+        	static $api_key = "2cf1abc4b8adb0ad4a723a3b6e666c2a:2:70025254";
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/World/24.json?limit=5&offset=1&api-key='.$api_key);
   	 			$obj = json_decode($json, true);
-  	 	
   	 			$article = $obj['results'][0];
   	 			$url = $article['url'];
 	    	?>
@@ -91,13 +91,13 @@ require_once('includes/header.inc.php');
  
         <div class="large-4 small-6 columns" id = "BusinessThumbnail">
           
-<?php
-  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Business/24.json?limit=5&offset=0&api-key=2cf1abc4b8adb0ad4a723a3b6e666c2a%3A2%3A70025254');
+			<?php
+  	 			$json = file_get_contents('http://api.nytimes.com/svc/news/v3/content/all/Business/24.json?limit=5&offset=0&api-key='. $api_key);
   	 			$obj = json_decode($json, true);
-  	 	
   	 			$article = $obj['results'][0];
   	 			$url = $article['url'];
 	    	?>
+	    	
           <a href="article.php?link=<?php  echo $url?>"><img src="business.png"/></a>
           <h6 class="panel"><a href = "section.php?section=Business">Business News and Discussion</a></h6>
         </div>

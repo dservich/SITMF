@@ -75,7 +75,7 @@ require_once('includes/header.inc.php');
           <div class="row">
  
             <div class="large-4 small-6 columns">
-              <ziggeo ziggeo-height = 250 ziggeo-width = 250></ziggeo>
+              <ziggeo ziggeo-height = 300 ziggeo-width = 300></ziggeo>
  
               <div class="panel">
                 <h5>Item Name</h5>
@@ -84,7 +84,8 @@ require_once('includes/header.inc.php');
             </div>
  
             <div class="large-4 small-6 columns">
-              <img src="http://placehold.it/500x500&text=Thumbnail">
+              <ziggeo ziggeo-video = 368ac8741bee504d9d9c801352ff3992
+                      ziggeo-height = 300 ziggeo-width = 300></ziggeo>
  
               <div class="panel">
                 <h5>Item Name</h5>
