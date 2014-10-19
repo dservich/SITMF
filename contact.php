@@ -14,6 +14,7 @@ require_once('includes/header.inc.php');
       <ul class="inline-list right" >
         
         <li ><a href="about.php">About SITMF</a></li>
+        <li><a href="code-of-conduct.php">Code of Conduct</a></li>
       </ul>
     </div>
   </div>
@@ -26,6 +27,7 @@ require_once('includes/header.inc.php');
 	<a href="mailto:sms1030@sru.edu">sms1030@sru.edu </a>
 <a href="https://twitter.com/Two_Shanez"/><img src="twitter.png" 
 width="50" height="50" alt="twitlogo">
+<a href="https://www.facebook.com/shane.skillpa"/><img src="facebook.png" width="50" height="50" alt="facebooklogo">
 </a>
 <br>
 <br>
@@ -39,10 +41,7 @@ width="50" height="50" alt="twitlogo">
 </font>
 </center>
 </p>
-<br>
-<br>
-<br>
-<br>
+
 
 <footer class="row">
     <div class="large-12 columns">

@@ -29,6 +29,8 @@ require_once('includes/header.inc.php');
       <ul class="inline-list right" >
         <li ><a href="about.php">About SITMF</a></li>
         <li ><a href="contact.php">Contact Us</a></li>
+        <li><a href="code-of-conduct.php">Code of Conduct</a></li>
+
       </ul>
     </div>
   </div>
