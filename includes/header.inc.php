@@ -11,7 +11,7 @@
     <title>SITMF</title>
 
     <link rel = "stylesheet" href="includes/css/foundation.css">
-
+    <link rel = "stylesheet" href="//assets.ziggeo.com/css/ziggeo-betajs-player.min.css" />
     
   </head>
 
