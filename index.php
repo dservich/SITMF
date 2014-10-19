@@ -1,6 +1,14 @@
 <?php
 require_once('includes/header.inc.php');
 ?>
+<div class = "row">
+	<div class = "large-12 columns">
+		<h3 align = "center">Say It To My Face <br>
+		<small>Where Your Opinion Is Heard</small>
+        
+    	</h3>
+	</div>
+</div>
 
 <div class="row">
     <div class="large-3 columns">
@@ -25,9 +33,7 @@ require_once('includes/header.inc.php');
      
     <div class="large-9 push-3 columns">
       
-      <h3>Say It To My Face <small>Where Your Opinion Is Heard</small>
-        <br> 
-      </h3>
+      
       
       
   <div class="row">
