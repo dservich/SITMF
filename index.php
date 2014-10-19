@@ -3,15 +3,16 @@ require_once('includes/header.inc.php');
 ?>
 <div class = "row">
 	<div class = "large-12 columns">
-    <p align = "center"><font color="#FF8000" size="26">
-      <b>Say It To My Face</b></font> 
-      <br>
-		<font color="#FF0000" size="15">
+    <p align = "center" style="font-family:impact"><font color="#FF8000" size="26">
+      <b><i>Say It To My Face</b></i></font> 
+		<br>
+    <font color="#FF0000" size="15">
       <small>
       <b><i>Where Your Opinion Is Heard</i></b></font>
     </small>
+  </p>
         
-    	</p>
+    	
 	</div>
 </div>
 
@@ -149,7 +150,7 @@ require_once('includes/header.inc.php');
       <hr/>
       <div class="row">
         <div class="large-6 columns">
-          <p>© Dan Servich & Shane Skillpa.</p>
+          <p><b>© Dan Servich & Shane Skillpa.</b></p>
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
