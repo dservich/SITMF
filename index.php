@@ -61,7 +61,7 @@ require_once('includes/header.inc.php');
  
         <div class="large-3 small-6 columns" id = "WorldThumbnail">
           <img src="http://placehold.it/250x250&text=Thumbnail-1"/>
-          <h6 class="panel"><a href = "#">Click here for more news in World</a></h6>
+          <h6 class="panel"><a href = "article.php">Click here for more news in World</a></h6>
         </div>
  
         <div class="large-3 small-6 columns" id = "SportsThumbnail">
