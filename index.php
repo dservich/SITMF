@@ -3,11 +3,14 @@ require_once('includes/header.inc.php');
 ?>
 <div class = "row">
 	<div class = "large-12 columns">
-		<p align = "center"><font color="#FF8000" size="26">
-      <i><b>Say It To My Face</b></i></font> 
+		<bgcolor="#D8D8D8">
+    <p align = "center"><font color="#FF8000" size="26">
+      <b>Say It To My Face</b></font> 
       <br>
-		<font color="#FF0000" size="15"><small><b>
-      Where Your Opinion Is Heard</b></small></font>
+		<font color="#FF0000" size="15">
+      <small>
+      <b><i>Where Your Opinion Is Heard</i></b></font>
+    </small>
         
     	</p>
 	</div>
