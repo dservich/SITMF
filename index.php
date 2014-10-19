@@ -3,7 +3,6 @@ require_once('includes/header.inc.php');
 ?>
 <div class = "row">
 	<div class = "large-12 columns">
-		<bgcolor="#D8D8D8">
     <p align = "center"><font color="#FF8000" size="26">
       <b>Say It To My Face</b></font> 
       <br>
@@ -53,24 +52,24 @@ require_once('includes/header.inc.php');
  
      
  
-        <div class="large-3 small-6 columns" id = "WorldThumbnail">
-          <img src="http://placehold.it/250x250&text=Thumbnail-1"/>
-          <h6 class="panel"><a href = "#">Click here for more news in World</a></h6>
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Thumbnail"/>
+          <h6 class="panel">Description</h6>
         </div>
  
-        <div class="large-3 small-6 columns" id = "SportsThumbnail">
-          <img src="http://placehold.it/250x250&text=Thumbnail-2"/>
-          <h6 class="panel"><a href = "#">Click here for more news in Sports</a></h6>
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Thumbnail"/>
+          <h6 class="panel">Description</h6>
         </div>
  
-        <div class="large-3 small-6 columns" id = "BusinessThumbnail">
-          <img src="http://placehold.it/250x250&text=Thumbnail-3"/>
-          <h6 class="panel"><a href = "#">Click here for more news in Business</a></h6>
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Thumbnail"/>
+          <h6 class="panel">Description</h6>
         </div>
  
-        <div class="large-3 small-6 columns" id = "">
-          <img src="http://placehold.it/250x250&text=Thumbnail-4"/>
-          <h6 class="panel"><a href = "#">Click for more news in Movies</a></h6>
+        <div class="large-3 small-6 columns">
+          <img src="http://placehold.it/250x250&text=Thumbnail"/>
+          <h6 class="panel">Description</h6>
         </div>
  
      
